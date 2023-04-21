@@ -23,6 +23,17 @@ package practice;
     };
 } */
 
+/* Structure of Java syntax (e.g. my example below)
+ * I declare a class called [Conditioanls]
+ * Constructors specify how to create objects with a class
+ * 
+ * Methods, are functions inside of classes (e.g. [testConditionals]) -> they are called on a particular object
+ * 
+ * 
+ * In main:
+ * args gives you access to command line arguments
+ */
+
 public class Conditionals {
     public static void main(String[] args) {
         int x = 5;
