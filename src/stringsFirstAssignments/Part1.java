@@ -19,9 +19,7 @@ public class Part1 {
     }
 
     public void testSimpleGene() {
-        String[] dnaStrings = {"ATCGCGTAATAGCTGACTGACATCG", "CGCGTAAATCGACTGACGACGACG", 
-            "ATCGCGTACGACTGACATCGACTGACGTAA", "ATGCGTAACTGACTGACGATCG", 
-            "ATGCGTAACTGACGACGACTAACTGACGACG"};
+        String[] dnaStrings = {"AAATGCCCTAACTAGATTAAGAAACC"};
         for (String dna : dnaStrings) {
             System.out.println("DNA string: " + dna);
             String gene = findSimpleGene(dna);
