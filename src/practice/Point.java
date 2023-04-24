@@ -10,6 +10,7 @@ public class Point {
         y = starty;
     };
 
+/* 3 methods are below (funtions inside of classes) */
     public int getX() {
         return x;
     };
@@ -26,6 +27,8 @@ public class Point {
     };
 
     public static void main(String[] args) {
+        //new keyword creates a new object
+        //First [Point] refers to the classname, and the [Point] after the [new] keyword refers to creating a new object of the Pojnt class
         Point p1 = new Point(3, 4); //This is a new instance of the Point constructor
         Point p2 = new Point(6,8);
 
