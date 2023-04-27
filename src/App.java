@@ -17,6 +17,8 @@
 
     4) Note that in order to run Java from the terminal, you need to have the Java Development Kit (JDK) installed on your system and the "java" and "javac" commands must be added to your system's PATH environment variable.
 
+        - can alse use javac *.java to compile entire package
+
 
     5) To run in a package, need to start from the parent directory: e.g. java practice.FunctionPractice
 
